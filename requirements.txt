@@ -1,5 +1,4 @@
-python_version>=3.8
-python_version>=3.9
+python_version>=3.6
 PyGithub
 pytest
 Flask==2.1.1
