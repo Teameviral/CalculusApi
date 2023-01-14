@@ -103,8 +103,3 @@ derivatives = [2*x, cos(x), e**x, -1/x**2]
 dataset = np.column_stack((functions, points, derivatives))
 
 ```
-
-
-Once you have the dataset, you can use it to train a model using the TensorFlow library and the keras module. You would need to preprocess the function expressions to a format that the model can use and then split the data into training and testing sets before training the model.
-
-It's worth noting that this is a challenging task and requires a good understanding of the math and machine learning. Also, The example above is a very simple and artificial example, in real-world scenarios, you would need much more data, complex preprocessing and a more complex model that can handle symbolic math expressions.
