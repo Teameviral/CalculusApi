@@ -9,6 +9,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
+      TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
+
 
     steps:
     - name: Checkout
@@ -27,4 +31,4 @@ jobs:
     - name: Build and publish
       run: |
         python setup.py sdist bdist_wheel
-        python -m twine upload dist/*
+        python -m twine upload --username $TWINE_USERNAME --password $TWINE_PASSWORD dist/*
