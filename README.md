@@ -33,11 +33,11 @@ This script is a basic example of how to train a model using TensorFlow and the 
 
 - Compile the model: The script compiles the model by specifying the optimizer (Adam) and the loss function (mean squared error)
 
-= Train the model: The script trains the model using the x_train and y_train data, and runs it for 100 epochs
++ Train the model: The script trains the model using the x_train and y_train data, and runs it for 100 epochs
 
-= Evaluate the model: The script evaluates the model by using the x_test and y_test data and prints the test loss.
++ Evaluate the model: The script evaluates the model by using the x_test and y_test data and prints the test loss.
 
-= Save the model: The script saves the trained model to a file named "model.h5"
++ Save the model: The script saves the trained model to a file named "model.h5"
 
 This script is a basic example of how to train a model using the Boston Housing dataset and it is not related to integration and differentiation. In order to train a model that can handle integration and differentiation, you will need a more comprehensive dataset and also need to handle the symbolic math expressions and also need to integrate the model with the flask API.
 
