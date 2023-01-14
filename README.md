@@ -65,7 +65,7 @@ The example code I provided earlier was for training a model to predict the medi
 
 To train a model for integration and differentiation, you would need a dataset that includes function expressions and the corresponding definite integral or derivative values. The dataset could be in the form of a CSV file or a set of arrays.
 
-Here's an example of how you might create a dataset for integration:
+Here's an example of how you might create a dataset for integration and differentiation:
 
 ```
 import numpy as np
