@@ -1,4 +1,4 @@
-python
+python==3.10
 PyGithub
 pytest
 Flask==2.1.1
