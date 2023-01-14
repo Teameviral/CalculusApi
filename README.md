@@ -87,7 +87,7 @@ dataset = np.column_stack((functions, lowers, uppers, integrals))
 Similarly, you can create a dataset for differentiation:
 ```
 
-````
+```` 
 import numpy as np
 
 # Create a list of function expressions
@@ -101,7 +101,9 @@ derivatives = [2*x, cos(x), e**x, -1/x**2]
 
 # Combine the lists into a dataset
 dataset = np.column_stack((functions, points, derivatives))
+
 ```
+
 
 Once you have the dataset, you can use it to train a model using the TensorFlow library and the keras module. You would need to preprocess the function expressions to a format that the model can use and then split the data into training and testing sets before training the model.
 
