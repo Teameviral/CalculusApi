@@ -101,5 +101,3 @@ derivatives = [2*x, cos(x), e**x, -1/x**2]
 
 # Combine the lists into a dataset
 dataset = np.column_stack((functions, points, derivatives))
-
-```
