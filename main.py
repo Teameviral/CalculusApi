@@ -28,5 +28,5 @@ def differentiation():
     result = model.predict(np.array([[function, point]]))
     return f'The derivative of the function at {point} is: {result[0][0]}'
 
-if __name__ == 'main':
+if __name__ == '__main__':
     app.run(debug=True)
