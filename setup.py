@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setup(
     name='calcuap',
     version='0.0.1',
-    author='Avishek',
+    author='wbavishek',
     author_email='wbavishek@gmail.com',
     description='A package for integration and differentiation',
     long_description=long_description,
