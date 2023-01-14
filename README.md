@@ -2,6 +2,8 @@
 
 This code defines a Flask application that serves as an API for performing integration and differentiation. The API has two endpoints, `/integration` and `/differentiation`, that can be accessed using a POST request.
 
+## Contribute Freely by creating a Pull request.
+
 The integration endpoint expects a JSON object in the request body with the following properties:
 
 + function1: a string representing the mathematical function to be integrated
