@@ -1,4 +1,6 @@
 Python
+PyGithub
+pytest
 Flask==2.1.1
 tensorflow==2.9.3
 numpy==1.19.3
